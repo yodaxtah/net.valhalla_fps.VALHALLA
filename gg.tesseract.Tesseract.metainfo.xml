@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<component type="desktop">
+<component type="desktop-application">
   <!--Created with jdAppStreamEdit 7.0-->
   <id>gg.tesseract.Tesseract</id>
+  <launchable type="desktop-id">gg.tesseract.Tesseract.desktop</launchable>
   <name>Tesseract</name>
   <summary>First-person shooter with cooperative in-game map editing</summary>
   <developer_name>Lee Salzmann</developer_name>
@@ -17,14 +18,15 @@ shading and morphological/temporal/multisample anti-aliasing.</p>
   <screenshots>
     <screenshot type="default">
       <image type="source">https://libregamewiki.org/images/1/14/Tesseract_FPS.jpg</image>
+      <caption>Gameplay on the map complex</caption>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="2014-05-12" date="2014-05-12" type="stable"/>
+    <release version="2024-04-25" date="2024-04-25" type="stable"/>
   </releases>
   <url type="homepage">http://tesseract.gg/</url>
   <url type="bugtracker">http://tesseract.gg/forum/viewforum.php?id=7</url>
-  <url type="vcs-browser">http://websvn.tuxfamily.org/tesseract/main/</url>
+  <url type="vcs-browser">https://websvn.tuxfamily.org/tesseract/main/</url>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-realistic">moderate</content_attribute>
     <content_attribute id="social-chat">intense</content_attribute>

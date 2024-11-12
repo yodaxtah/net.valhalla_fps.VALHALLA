@@ -1,11 +1,12 @@
 app-id: gg.tesseract.Tesseract
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: tesseract
 finish-args:
   - --socket=pulseaudio
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --share=ipc
   - --share=network
   - --device=dri
@@ -26,7 +27,7 @@ modules:
     sources:
       - type: svn
         url: svn://svn.tuxfamily.org/svnroot/tesseract/main
-        revision: 2549
+        revision: 2553
       - type: shell
         commands:
           - sed -i 's#TESS_DATA=.#TESS_DATA=/app/lib/tesseract/#g' tesseract_unix

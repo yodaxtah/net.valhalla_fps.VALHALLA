@@ -14,8 +14,13 @@ finish-args:
 
 modules:
   - name: tesseract
-    buildsystem: autotools
     no-autogen: true
+    no-make-install: true
+    build-options:
+      cflags: -O3 -fomit-frame-pointer
+      cflags-override: true
+      cxxflags: -O3 -fomit-frame-pointer -ffast-math
+      cxxflags-override: true
     subdir: src
     post-install:
       - mkdir -p ${FLATPAK_DEST}/lib/tesseract

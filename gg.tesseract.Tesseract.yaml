@@ -15,7 +15,6 @@ finish-args:
 modules:
   - name: tesseract
     no-autogen: true
-    no-make-install: true
     build-options:
       cflags: -O3 -fomit-frame-pointer
       cflags-override: true

@@ -23,7 +23,7 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v1.0.0 BETA 2 Isa" date="2025-05-2" type="stable"/>
+    <release version="v1.0.0 BETA 2 Isa" date="2025-05-2" type="stable">
       <url type="details">https://example.org/changelog.html#version_1.0.1</url>
       <description>
       <p>Release description -- Ping garsipal :))</p>

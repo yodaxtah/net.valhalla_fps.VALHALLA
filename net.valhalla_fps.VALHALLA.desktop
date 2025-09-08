@@ -1,9 +1,9 @@
 [Desktop Entry]
 Version=1.0
-Name=Tesseract
+Name=VALHALLA
 GenericName=Fast-paced Shooter
-Exec=tesseract
-Icon=gg.tesseract.Tesseract
+Exec=valhalla
+Icon=net.valhalla_fps.VALHALLA
 Terminal=false
 Type=Application
 Categories=Game;Shooter;

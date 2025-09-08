@@ -4,13 +4,13 @@ Date: Wed, 3 Sep 2025 20:59:02 +0300
 Subject: [PATCH] Patch makefile to make Tesseract find SDL2_image in /app/lib
 
 ---
- src/Makefile | 2 +-
+ source/Makefile | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/src/Makefile b/src/Makefile
+diff --git a/source/Makefile b/source/Makefile
 index a2e23ab..137e609 100644
---- a/src/Makefile
-+++ b/src/Makefile
+--- a/source/Makefile
++++ b/source/Makefile
 @@ -57,7 +57,7 @@ CLIENT_LIBS+= -framework SDL2_mixer -framework CoreAudio -framework AudioToolbox
  CLIENT_LIBS+= -framework AudioUnit -framework OpenGL -framework Cocoa -lz -Lenet -lenet
  else

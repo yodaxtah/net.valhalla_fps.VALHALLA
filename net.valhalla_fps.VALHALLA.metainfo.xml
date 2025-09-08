@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
   <!--Created with jdAppStreamEdit 7.0-->
-  <id>gg.tesseract.Tesseract</id>
-  <launchable type="desktop-id">gg.tesseract.Tesseract.desktop</launchable>
-  <name>Tesseract</name>
+  <id>net.valhalla_fps.VALHALLA</id>
+  <launchable type="desktop-id">net.valhalla_fps.VALHALLA</launchable>
+  <name>VALHALLA</name>
   <summary>First-person shooter with cooperative in-game map editing</summary>
   <developer_name>Lee Salzmann</developer_name>
   <metadata_license>CC0-1.0</metadata_license>

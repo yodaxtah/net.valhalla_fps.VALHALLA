@@ -3,30 +3,40 @@
   <!--Created with jdAppStreamEdit 7.0-->
   <id>net.valhalla_fps.VALHALLA</id>
   <launchable type="desktop-id">net.valhalla_fps.VALHALLA</launchable>
-  <name>VALHALLA</name>
-  <summary>First-person shooter with cooperative in-game map editing</summary>
-  <developer_name>Lee Salzmann</developer_name>
+  <name>VALHALLA Beta</name>
+  <summary>Modern first-person shooter with cooperative in-game map editing</summary>
+  <developer_name>VALHALLA Team</developer_name>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>Zlib</project_license>
   <description>
-    <p>Tesseract is a first-person shooter game focused on instagib deathmatch
-and capture-the-flag gameplay as well as cooperative in-game map editing.</p>
-    <p>Tesseract is based on Cube2/Sauerbraten. New rendering features include fully
-dynamic omnidirectional shadows, global illumination, HDR lighting, deferred
-shading and morphological/temporal/multisample anti-aliasing.</p>
+    <p>VALHALLA is the first-person shooter game set in a dystopian, sci-fi world inspired by Norse mythology.</p>
+    <p>Dive into fast-paced, snappy gameplay as you enter the Valhalla Corporation's testing arenas - all in the name of science!</p>
   </description>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://libregamewiki.org/images/1/14/Tesseract_FPS.jpg</image>
-      <caption>Gameplay on the map Complex</caption>
+      <image type="source">https://valhalla-fps.net/image/gallery/valhalla-fps-game-screen7.png</image>
+      <caption>Create large maps in-game with the Tesseract engine.</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image type="source">https://valhalla-fps.net/image/gallery/valhalla-fps-game-screen4.png</image>
+      <caption>Play online and/or against bots.</caption>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="2024-04-25" date="2024-04-25" type="stable"/>
+    <release version="v1.0.0 BETA 2 Isa" date="2025-05-2" type="stable"/>
+      <url type="details">https://example.org/changelog.html#version_1.0.1</url>
+      <description>
+      <p>Release description -- Ping garsipal :))</p>
+        <ul>
+          <li>List of changes</li>
+          <li>List of changes</li>
+        </ul>
+      </description>
+    </release>
   </releases>
-  <url type="homepage">http://tesseract.gg/</url>
-  <url type="bugtracker">http://tesseract.gg/forum/viewforum.php?id=7</url>
-  <url type="vcs-browser">https://websvn.tuxfamily.org/tesseract/main/</url>
+  <url type="homepage">https://valhalla-fps.net/</url>
+  <url type="bugtracker">https://github.com/project-valhalla/main/issues</url>
+  <url type="vcs-browser">https://github.com/project-valhalla/main</url>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-realistic">moderate</content_attribute>
     <content_attribute id="social-chat">intense</content_attribute>

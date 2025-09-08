@@ -1,6 +1,13 @@
 # VALHALLA Flatpak package
 
-Follow the following standard flatpak workflow to install the package locally using `flatpak`.
+To install this package for VALHALLA, open a terminal and execute the following commands:
+
+```
+git clone https://github.com/yodaxtah/net.valhalla_fps.VALHALLA.git
+cd net.valhalla_fps.VALHALLA.yaml
+```
+
+Next, follow the following standard flatpak workflow to install the package locally using `flatpak`.
 
 1. install the FLATPAK build tools
    ```

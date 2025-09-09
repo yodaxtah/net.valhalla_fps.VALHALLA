@@ -4,12 +4,12 @@ To install this package for VALHALLA, open a terminal and execute the following 
 
 ```
 git clone https://github.com/yodaxtah/net.valhalla_fps.VALHALLA.git
-cd net.valhalla_fps.VALHALLA.yaml
+cd net.valhalla_fps.VALHALLA
 ```
 
 Next, follow the following standard flatpak workflow to install the package locally using `flatpak`.
 
-1. install the FLATPAK build tools
+1. install the **FLATPAK** build tools 
    ```
    flatpak install -y flathub org.flatpak.Builder
    ```

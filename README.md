@@ -1,6 +1,6 @@
 # VALHALLA Flatpak package
 
-To install this package for VALHALLA, open a terminal and execute the following commands:
+To install this package for [VALHALLA](https://github.com/project-valhalla/main), open a terminal and execute the following commands:
 
 ```
 git clone https://github.com/yodaxtah/net.valhalla_fps.VALHALLA.git
